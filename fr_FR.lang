@@ -245,16 +245,21 @@ tooltip.vs_world.valkyrium_ore_1=A mysterious floating ore.
 tooltip.vs_world.valkyrium_ore_2=Holding too much will make you levitate.
 
 
-# Other Stuff
-potion.effect.levitation=Alazu's Wrath
-splash_potion.effect.levitation=Splash Alazu's Wrath
-lingering_potion.effect.levitation=Lingering Alazu's Wrath
+# Potions
+effect.valkyrium-levitation=Valkyrium Levitation
+effect.valkyrium-levitation-jump=Valkyrium Levitation Jump
 
-potion.effect.levitation-jump=Levitation Jump
-splash_potion.effect.levitation-jump=Splash Levitation Jump
-lingering_potion.effect.levitation-jump=Lingering Levitation Jump
+potion.effect.valkyrium-levitation=Potion of Valkyrium Levitation
+potion.effect.valkyrium-levitation-jump=Potion of Valkyrium Levitation Jump
 
-effect.levitation-jump=Levitation Jump
+splash_potion.effect.valkyrium-levitation=Splash Potion of Valkyrium Levitation
+splash_potion.effect.valkyrium-levitation-jump=Splash Potion of Valkyrium Levitation Jump
+
+tipped_arrow.effect.valkyrium-levitation=Arrow of Valkyrium Levitation
+tipped_arrow.effect.valkyrium-levitation-jump=Arrow of Valkyrium Levitation Jump
+
+lingering_potion.effect.valkyrium-levitation=Lingering Potion of Valkyrium Levitation
+lingering_potion.effect.valkyrium-levitation-jump=Lingering Potion of Valkyrium Levitation Jump
 
 
 # Config (Remember to update VSWorldConfig after any changes are made here)
