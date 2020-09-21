@@ -273,3 +273,5 @@ vs_world.general.valkyriumcrystalforce.tooltip=Default is 1. Set to 0 to disable
 vs_world.general.valkyriumoreforce=Valkyrium Ore Anti-Gravity Force
 vs_world.general.valkyriumoreforce.tooltip=Default is 4. Set to 0 to disable.
 
+vs_world.general.valkyriumoregenenabled=Valkyrium Ore Generation Enabled
+vs_world.general.valkyriumoregenenabled.tooltip=Default is true. Set to false to disable.
