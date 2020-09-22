@@ -100,7 +100,7 @@ message.vs_control.error_relay_wire_length=线缆太短，无法建立连接！
 item.vanishing_wire.name=隐形线缆
 tooltip.vs_control.vanishing_wire=功能和普通线缆一样，但是手里不拿着它的话你是看不见线缆的。
 
-item.vs_wrench.name=VS Wrench
+item.vs_wrench.name=VS扳手
 tooltip.vs_control.wrench_usage=需要用VS扳手来构建它。
 tooltip.vs_control.wrench_modes=Shift+右击来改变模式。
 tooltip.vs_control.wrench_switched.construct=已切换扳手至构建模式。
