@@ -36,10 +36,10 @@ valkyrienskies.general.dophysicsblocks=启动物理方块
 valkyrienskies.general.dophysicsblocks.tooltip=
 
 valkyrienskies.general.rendershipchunkclaimsindebug=渲染调试模式飞船轮廓
-valkyrienskies.general.rendershipchunkclaimsindebug.tooltip=启用时所有飞船区块会有绿色边框 (调试渲染模式 (f3 + b)).
+valkyrienskies.general.rendershipchunkclaimsindebug.tooltip=启用时所有飞船区块会有绿色边框 (调试渲染模式 (f3 + b))。
 
 valkyrienskies.general.showannoyingdebugoutput=启用调试模式控制台
-valkyrienskies.general.showannoyingdebugoutput.tooltip=不推荐启用，除非遇到bug，或者开发者告诉你这样做
+valkyrienskies.general.showannoyingdebugoutput.tooltip=不推荐启用，除非遇到bug，或者开发者告诉你这样做。
 
 valkyrienskies.general.timesimulatedperphysicstick=物理运行速度
 valkyrienskies.general.timesimulatedperphysicstick.tooltip=每个物理tick占用的时间。 默认模式下每一秒有100个物理tick, 所以默认值是1/100。
@@ -48,7 +48,7 @@ valkyrienskies.general.threadcount=物理线程数
 valkyrienskies.general.threadcount.tooltip=物理引擎使用的线程数, 建议为值为CPU线程数-2。 不能在游戏运行时修改。
 
 valkyrienskies.general.maxdetectedshipsize=飞船方块数量上限
-valkyrienskies.general.maxdetectedshipsize.tooltip=物理注入器可以作用的最大方块数。方块多于这个数值的飞船无法被物理化。此数值不限制物理化以后的方块数量
+valkyrienskies.general.maxdetectedshipsize.tooltip=物理注入器一次性可以作用的最大方块数。方块多于这个数值的飞船无法被物理化。此数值不限制物理化以后的方块数量。
 
 valkyrienskies.general.gravityvecx=X轴重力矢量分量
 valkyrienskies.general.gravityvecx.tooltip=
@@ -60,31 +60,31 @@ valkyrienskies.general.gravityvecz=Z轴重力矢量分量
 valkyrienskies.general.gravityvecz.tooltip=
 
 valkyrienskies.general.tickstosticktoship=玩家从属于飞船空间的时间
-valkyrienskies.general.tickstosticktoship.tooltip=如果玩家碰到飞船, 除非他们离开并碰到其他飞船 (或者陆地) 他们会在这么多tick的时间区间内和飞船同步移动。超出这个区间玩家将不再和飞船同步移动
+valkyrienskies.general.tickstosticktoship.tooltip=如果玩家碰到飞船, 除非他们离开并碰到其他飞船 (或者陆地) 他们会在这么多tick的时间区间内和飞船同步移动。超出这个区间玩家将不再和飞船同步移动。
 
 valkyrienskies.general.ship_loading_settings=飞船加载设置
-valkyrienskies.general.ship_loading_settings.tooltip=设置飞船的加载距离和渲染距离。 这些设置必须满足以下条件:\nPlayer Watch Distance < Ship Load Distance < Ship Load Background Distance <= Player Unwatch Distance < Ship Unload Distance
+valkyrienskies.general.ship_loading_settings.tooltip=设置飞船的加载距离和渲染距离。 这些设置必须满足以下条件:\n飞船渲染距离 < 飞船加载距离 < 飞船预加载距离 <= 飞船停止渲染距离 < 飞船停止加载距离
 
 valkyrienskies.general.ship_loading_settings.watchDistance=飞船渲染距离
-valkyrienskies.general.ship_loading_settings.watchDistance.tooltip=玩家和飞船距离的XY平面投影小于此数值时可以看到飞船
+valkyrienskies.general.ship_loading_settings.watchDistance.tooltip=玩家和飞船距离的XZ平面投影小于此数值时可以看到飞船。
 
 valkyrienskies.general.ship_loading_settings.loadDistance=飞船加载距离
-valkyrienskies.general.ship_loading_settings.loadDistance.tooltip=玩家和飞船距离的XY平面投影小于此数值时将加载飞船
+valkyrienskies.general.ship_loading_settings.loadDistance.tooltip=玩家和飞船距离的XZ平面投影小于此数值时将加载飞船。
 
-valkyrienskies.general.ship_loading_settings.loadBackgroundDistance=S飞船预加载距离
-valkyrienskies.general.ship_loading_settings.loadBackgroundDistance.tooltip=玩家和飞船距离的XY平面投影小于此数值时将预加载飞船
+valkyrienskies.general.ship_loading_settings.loadBackgroundDistance=飞船预加载距离
+valkyrienskies.general.ship_loading_settings.loadBackgroundDistance.tooltip=玩家和飞船距离的XZ平面投影小于此数值时将预加载飞船。
 
 valkyrienskies.general.ship_loading_settings.unwatchDistance=飞船停止渲染距离
-valkyrienskies.general.ship_loading_settings.unwatchDistance.tooltip=玩家和飞船距离的XY平面投影大于这个值时飞船将停止渲染
+valkyrienskies.general.ship_loading_settings.unwatchDistance.tooltip=玩家和飞船距离的XZ平面投影大于这个值时飞船将停止渲染。
 
 valkyrienskies.general.ship_loading_settings.unloadDistance=飞船停止加载距离
-valkyrienskies.general.ship_loading_settings.unloadDistance.tooltip=玩家和飞船距离的XY平面投影大于这个值时飞船将停止加载
+valkyrienskies.general.ship_loading_settings.unloadDistance.tooltip=玩家和飞船距离的XZ平面投影大于这个值时飞船将停止加载。
 
 valkyrienskies.general.shipspawndetectorblacklist=构建飞船黑名单
-valkyrienskies.general.shipspawndetectorblacklist.tooltip=这些方块构建飞船时将不被包含
+valkyrienskies.general.shipspawndetectorblacklist.tooltip=这些方块构建飞船时将不被包含。
 
 valkyrienskies.general.blockmass=方块质量
-valkyrienskies.general.blockmass.tooltip=修改默认方块质量，单位是千克
+valkyrienskies.general.blockmass.tooltip=修改自动生成的方块质量，单位是千克。
 
 ### Valkyrien Skies Control
 
@@ -119,18 +119,18 @@ tooltip.vs_control.physics_infuser_creative_1=会将与此连接的任何方块�
 tooltip.vs_control.physics_infuser_creative_2=警告：此注入器没有连接上限，会影响到与此连接的所有方块！请谨慎使用。
 
 tile.physics_infuser_dummy.name=附属物理注入器
-tooltip.vs_control.physics_infuser_dummy=物理注入器的另一半
+tooltip.vs_control.physics_infuser_dummy=物理注入器的另一半。
 
-tile.ship_helm.name=船舵
-tooltip.vs_control.ship_helm=T这个方块可以让你控制处在同一网络中的方向舵。
+tile.ship_helm.name=舵轮
+tooltip.vs_control.ship_helm=这个方块可以让你控制处在同一网络中的方向舵。
 
-tile.speed_telegraph.name=速度计
+tile.speed_telegraph.name=车钟
 tooltip.vs_control.speed_telegraph=这个方块可以让你控制齿轮箱的输出速度，借此来控制螺旋桨转速。
 
-tile.dummy_telegraph.name=附属速度计
-tooltip.vs_control.dummy_telegraph=没有功能的速度计。
+tile.dummy_telegraph.name=附属车钟
+tooltip.vs_control.dummy_telegraph=没有功能的速度计。\n启动时会激活它下面的方块。
 
-tile.lift_lever.name=控制杆
+tile.lift_lever.name=升降舵
 tooltip.vs_control.lift_lever=这个方块可以让你调整瓦尔基里压缩机的目标高度。
 
 tile.gearbox.name=齿轮箱
@@ -176,7 +176,7 @@ tooltip.vs_control.legacy_engine=老式引擎，仅需红石信号即可工作�
 
 ## Misc.
 tile.compacted_valkyrium.name=压缩瓦尔基里块
-tooltip.vs_control.compacted_valkyrium=升力：%d牛。
+tooltip.vs_control.compacted_valkyrium=升力： %.0f 牛。
 
 tile.gyroscope_stabilizer.name=稳定陀螺仪
 tooltip.vs_control.gyroscope_stabilizer=这个方块会被动地提供一个使船体保持水平的扭矩。
@@ -204,7 +204,7 @@ tooltip.vs_control.lift_valve=尚未实装
 
 # Config (Remember to update VSControlConfig after any changes are made here)
 vs_control.general.wrenchmodeless=取消扳手解构模式
-vs_control.general.wrenchmodeless.tooltip=扳手只能构建多方块解构，没有模式
+vs_control.general.wrenchmodeless.tooltip=启用它会去除扳手的构建/解构模式，改为调节多方块结构的构建/解构状态。
 
 vs_control.general.networkrelaylimit=网络中继器连接上限
 vs_control.general.networkrelaylimit.tooltip=网络中继器的最大连接数, 默认是8。
@@ -212,11 +212,11 @@ vs_control.general.networkrelaylimit.tooltip=网络中继器的最大连接数, 
 vs_control.general.relaywirelength=中继线缆长度上限
 vs_control.general.relaywirelength.tooltip=中继线缆的最大长度，默认是8米。
 
-vs_control.general.compactedvalkyriumlift=压缩瓦尔基里快升力
-vs_control.general.compactedvalkyriumlift.tooltip=每个压缩瓦尔基里块提供的升力，默认值是200000牛
+vs_control.general.compactedvalkyriumlift=压缩瓦尔基里块升力
+vs_control.general.compactedvalkyriumlift.tooltip=每个压缩瓦尔基里块提供的升力，默认值是200000牛。
 
 vs_control.general.engine_thrust=引擎推力设置
-vs_control.general.engine_thrust.tooltip=设置引擎方块的推力。 修改之后引擎必须重新放置
+vs_control.general.engine_thrust.tooltip=设置引擎方块的推力。修改之后引擎必须重新放置。
 
 vs_control.general.engine_thrust.basicenginethrust=基础引擎推力
 vs_control.general.engine_thrust.basicenginethrust.tooltip=
@@ -247,31 +247,31 @@ tooltip.vs_world.valkyrium_ore_2=带太多可能会要了你的命。
 
 
 # Potions
-effect.valkyrium-levitation=瓦尔基里升力
-effect.valkyrium-levitation-jump=可以让你跳的更高
+effect.valkyrium-levitation=升力
+effect.valkyrium-levitation-jump=弹跳
 
-potion.effect.valkyrium-levitation=瓦尔基里升力药水
-potion.effect.valkyrium-levitation-jump=瓦尔基里弹跳药水
+potion.effect.valkyrium-levitation=升力药水
+potion.effect.valkyrium-levitation-jump=弹跳药水
 
-splash_potion.effect.valkyrium-levitation=瓦尔基里升力溅射药水
-splash_potion.effect.valkyrium-levitation-jump=瓦尔基里弹跳溅射药水
+splash_potion.effect.valkyrium-levitation=升力溅射药水
+splash_potion.effect.valkyrium-levitation-jump=弹跳溅射药水
 
-tipped_arrow.effect.valkyrium-levitation=瓦尔基里升力箭
-tipped_arrow.effect.valkyrium-levitation-jump=瓦尔基里弹跳箭
+tipped_arrow.effect.valkyrium-levitation=升力之箭
+tipped_arrow.effect.valkyrium-levitation-jump=弹跳之箭
 
-lingering_potion.effect.valkyrium-levitation=瓦尔基里升力延迟药水
-lingering_potion.effect.valkyrium-levitation-jump=瓦尔基里弹跳延迟药水
+lingering_potion.effect.valkyrium-levitation=升力滞留药水
+lingering_potion.effect.valkyrium-levitation-jump=弹跳滞留药水
 
 
 # Config (Remember to update VSWorldConfig after any changes are made here)
 vs_world.general.valkyriumitemsliftplayers=启用瓦尔基里物品升力
-vs_world.general.valkyriumitemsliftplayers.tooltip=启用后瓦尔基里物品可以提供升力
+vs_world.general.valkyriumitemsliftplayers.tooltip=启用后瓦尔基里物品可以提供升力。
 
-vs_world.general.valkyriumcrystalforce=瓦尔基里水晶反重力
-vs_world.general.valkyriumcrystalforce.tooltip=默认是1, 设为0将取消反重力
+vs_world.general.valkyriumcrystalforce=瓦尔基里水晶升力
+vs_world.general.valkyriumcrystalforce.tooltip=默认是1, 设为0将取消反重力。
 
-vs_world.general.valkyriumoreforce=瓦尔基里矿石反重力
-vs_world.general.valkyriumoreforce.tooltip=默认是1, 设为0将取消反重力
+vs_world.general.valkyriumoreforce=瓦尔基里矿石升力
+vs_world.general.valkyriumoreforce.tooltip=默认是4, 设为0将取消反重力。
 
 vs_world.general.valkyriumoregenenabled=启用瓦尔基里水晶世界生成
 vs_world.general.valkyriumoregenenabled.tooltip=默认启用。改为false停用
