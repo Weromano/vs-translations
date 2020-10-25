@@ -128,7 +128,7 @@ tile.speed_telegraph.name=车钟
 tooltip.vs_control.speed_telegraph=这个方块可以让你控制齿轮箱的输出速度，借此来控制螺旋桨转速。
 
 tile.dummy_telegraph.name=附属车钟
-tooltip.vs_control.dummy_telegraph=没有功能的速度计。\n启动时会激活它下面的方块。
+tooltip.vs_control.dummy_telegraph=没有功能的车钟。\n启动时会激活它下面的方块。
 
 tile.lift_lever.name=升降舵
 tooltip.vs_control.lift_lever=这个方块可以让你调整瓦尔基里压缩机的目标高度。
