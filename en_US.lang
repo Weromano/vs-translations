@@ -10,6 +10,9 @@ tooltip.valkyrienskies.captains_chair_2=If you are standing on the ship, you wil
 tile.passenger_chair.name=Passenger Chair
 tooltip.valkyrienskies.passenger_chair=Use to sit tight on ships.
 
+tile.water_pump.name=Water Pump
+tooltip.valkyrienskies.water_pump=Removes the effects of nearby water, useful for submarines.
+
 
 # Item Tab
 itemGroup.valkyrienskies=Valkyrien Skies
