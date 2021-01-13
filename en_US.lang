@@ -112,6 +112,8 @@ tooltip.vs_control.wrench_toggle=Right click multi-blocks to toggle constructed 
 tooltip.vs_control.wrench.construct=Used to construct multi-blocks and orient the gearbox.
 tooltip.vs_control.wrench.deconstruct=Used to safely deconstruct multi-blocks.
 
+item.vs_ship_tracker.name=Ship Tracker
+
 # Blocks
 ## Ship blocks
 tile.physics_infuser.name=Physics Infuser
